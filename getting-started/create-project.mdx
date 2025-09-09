@@ -1,0 +1,173 @@
+---
+title: "How to Create a New Project"
+description: "Learn how to create different types of projects including image, text, video, and audio annotation projects in Labellerr."
+icon: plus-circle
+---
+
+<Note>
+This tutorial would help address all issues regarding creation of a new project. What are the data types supported? How to Import data? & How to set Labelling parameters?
+</Note>
+
+<Card title="Topics Covered" icon="list-check">
+This guide covers creating different types of projects in Labellerr:
+
+* **Image Projects** - For visual annotation tasks
+* **Text Projects** - For text analysis and labeling
+* **Video Projects** - For temporal annotation workflows
+* **Audio Projects** - For sound analysis and segmentation
+</Card>
+
+## How to Create an Image Project?
+
+<Steps>
+  <Step title="Selecting Data">
+    Once at the **Home** page, To create a new project, click on **'Create Project'** button to begin.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/create-project-home.webp" alt="Create project from home page" />
+    </Frame>
+
+    <Warning>
+    **Only one data type can be selected per project.**
+    
+    For more on **Text, Audio and Video** data types, Check out the following create Text, Video & Audio Guides:
+    - [How to create a Text Project?](/getting-started/create-text-project)
+    - [How to create a Video Project?](/getting-started/create-video-project)  
+    - [How to create an Audio Project?](/getting-started/create-audio-project)
+    </Warning>
+  </Step>
+
+  <Step title="Upload/Attach existing dataset">
+    If a new dataset is to be created, Click on the "**Create Dataset**" button or you can select **Public datasets** for testing. To know more about how to test using Public Datasets you can visit the next tutorial.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/create-dataset.webp" alt="Create dataset screen" />
+    </Frame>
+
+    Now choose a data modality to work with. The options are **Image, Video, Audio, Text, Document** and then click on **Next**.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/select-modality.webp" alt="Select data modality" />
+    </Frame>
+
+    Now select a Data Connector. The available formats are Google Drive, Google Cloud, Amazon S3 & Local Upload.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/data-connector.webp" alt="Select data connector" />
+    </Frame>
+
+    <Info>
+    For more on how to upload files from different sources, check out [Datasets](/tutorials/datasets)
+    </Info>
+
+    Next, fill in the new dataset details: Enter the Name (mandatory) and Description (optional), then click on 'Create Dataset'.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/dataset-details.webp" alt="Fill dataset details" />
+    </Frame>
+  </Step>
+
+  <Step title="Label Configuration">
+    Here, Objects and Classifications based on the labeling requirements are supposed to be created. You can create a new template from scratch using the various options available or select an existing template from previous work on clicking **'Existing Templates'** button.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/label-configuration.webp" alt="Label configuration screen" />
+    </Frame>
+
+    There are different 'Object' & 'Classification' types. For objects, in **Objects** tab, Click on '**Add Object**'. Enter Object name and select object type. Click on 💾 button to add it.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/add-object.webp" alt="Add object interface" />
+    </Frame>
+
+    If you are confused to what object should be you can also view a sample image by clicking on show preview.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/show-preview.webp" alt="Show preview option" />
+    </Frame>
+
+    This will show you a preview of a random image from the dataset.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/image-preview.webp" alt="Image preview" />
+    </Frame>
+
+    To add attributes of an object or to edit the type/name of object, click on pen icon in parallel to object name. Click on 'Add Attribute'. Enter name of the Attribute and click on 'Add Options' to enter the values of attribute.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/add-attribute.webp" alt="Add attribute interface" />
+    </Frame>
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/attribute-options.webp" alt="Attribute options" />
+    </Frame>
+
+    <Info>
+    **Additional options are also available:**
+    - **Required** - Indicates that the attribute must be completed.
+    - **Sort options** - Allows sorting the values of the attribute.
+    - **Not sure remarks** - Enables adding remarks when unsure about an answer.
+    </Info>
+
+    <CardGroup cols={2}>
+      <Card>
+        <Frame>
+          <img src="https://d24lr4zqs1tgqh.cloudfront.net/962c8b8f-375a-4e9d-8612-b403d3656c62.jpg" alt="Attribute interface 1" />
+        </Frame>
+      </Card>
+      <Card>
+        <Frame>
+          <img src="https://d24lr4zqs1tgqh.cloudfront.net/0ade492e-1324-40b6-a1a1-515cf4266465.jpg" alt="Attribute interface 2" />
+        </Frame>
+      </Card>
+    </CardGroup>
+
+    <Tip>
+    Similarly, for classification, navigate to the 'Classifications' tab. Click on 'Add Classification', then enter the classification name/question. Select the classification type from the dropdown options, and click on 'Add option' to enter values for dropdown, radio, or multiselect options.
+    </Tip>
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/classification.webp" alt="Classification interface" />
+    </Frame>
+
+    For more on Image editing icons, check out the [Image Editing Icons Guide](/tutorials/image-editing-icons).
+
+    After you've finished, click on the "**Next Step**" button. Then, fill your new "**Template Details**" details and click on "**Proceed**" to continue so you can use the same template in future projects.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/template-details.webp" alt="Template details" />
+    </Frame>
+  </Step>
+
+  <Step title="Create Project with AI or Manual Labelling and Review">
+    Write the project name.
+
+    Select your review process by enabling or disabling the toggle button, Enable review cycle (if **Review Process** is needed) & Enable client review cycle (if **Client Review Process** is needed).
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/project-settings.webp" alt="Project settings" />
+    </Frame>
+
+    Click the **'Create Project with Labellerr AI'** button to create your project with AI Data Labeling and you will have to just review.
+
+    If selected Human Labeling project it will allow you to annotate manually. Once created, it will appear in the list along with your previously created projects. To view a project, simply click the '**View button**'.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/project-created.webp" alt="Project created successfully" />
+    </Frame>
+
+    To find the project ID, check the URL in the web link of the project's dashboard, labeling, review/client review screens, or navigate to the project's page and find it under that particular project as a column.
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/project-id-url.webp" alt="Project ID in URL" />
+    </Frame>
+
+    <Frame>
+      <img src="https://storage.googleapis.com/labellerr-cdn/1%20%20Documentation/project-id-column.webp" alt="Project ID in column" />
+    </Frame>
+  </Step>
+</Steps>
+
+<Note>
+For further assistance contact [support@tensormatics.com](mailto:support@tensormatics.com)
+</Note>
