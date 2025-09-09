@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Labellerr Documentation",
-  "theme": "venus",
+  "theme": "willow",
   "logo": {
     "light": "images/labellerr_logo.png",
     "dark": "images/labellerr_logo_white.png",
