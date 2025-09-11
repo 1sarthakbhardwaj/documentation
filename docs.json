@@ -3,11 +3,11 @@
   "name": "Labellerr Documentation",
   "theme": "mint",
   "logo": {
-    "light": "images/labellerr_logo.png",
-    "dark": "images/labellerr_logo_white.png",
+    "light": "https://cdn.labellerr.com/1%20%20Documentation/labellerr-logo.png",
+    "dark": "https://cdn.labellerr.com/1%20%20Documentation/labellerr-white-logo.png",
     "href": "https://labellerr.com"
   },
-  "favicon": "images/labellerr_favicon.png",
+  "favicon": "https://cdn.labellerr.com/1%20%20Documentation/labellerr-favicon.png",
   "colors": {
     "primary": "#5603fc",
     "light": "#5603fc",
